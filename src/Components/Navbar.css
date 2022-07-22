@@ -1,0 +1,24 @@
+.navbar-div,
+.register-login {
+  display: flex;
+}
+
+.navbar-div {
+  justify-content: space-between;
+}
+
+.register {
+  margin-right: 10%;
+}
+
+.login {
+  padding-right: 10%;
+}
+
+.navbarlayout {
+  background-color: greenyellow;
+  border: 1px solid black;
+}
+.register-login {
+  transform: translateX(-20px);
+}
