@@ -21,7 +21,7 @@ export const Register = () => {
   };
   console.log("data", data);
   return (
-    <div>
+    <div className="input">
       <form onSubmit={handlesubmit}>
         <label for="name" id="Name">Name: </label>
         <input

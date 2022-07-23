@@ -28,7 +28,6 @@ export const Login = ({ props }) => {
         value.includes(password)
       ) {
         if (CheckPrime(phone)) {
-          window.alert("your number is prime");
           flag = "your number is prime";
         }
         setData([
@@ -38,14 +37,12 @@ export const Login = ({ props }) => {
             flag: flag
           }
         ]);
-      } else {
-        window.alert("something went wrong check your email and password");
-      }
+      } 
     });
   };
   console.log("props", props);
   return (
-    <div>
+    <div className="inputs">
       <form onSubmit={handlesubmit}>
         <label for="email" id="Email1">Email:</label>
         <input

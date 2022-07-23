@@ -17,7 +17,7 @@ form{
     margin-left: 7%;
 }
 #Phone1{
-    margin-left: 0.5%;
+    margin-left: .5%;
 }
 #Pass1{
     margin-left: 4.5%;
@@ -29,4 +29,22 @@ form{
 .Log{
     margin-top: 1%;
     margin-left: 7%;
+}
+.inputs{
+    transform: translateX(-15px);
+}
+.input{
+    transform: translateX(-300px);
+}
+#email{
+    margin-left: 1%;
+}
+#name{
+    margin-left: 1%;
+}
+#phone{
+    margin-left: 1%;
+}
+#password{
+    margin-left: 1%;
 }
